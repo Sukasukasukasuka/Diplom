@@ -1,0 +1,41 @@
+  .add_activity{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 20pt;
+    color: #fff;
+  }
+  .save{
+    text-transform: uppercase;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    line-height: normal;
+    font-size: 16px;
+    color: #FFFFFF;
+  }
+  .select-md{
+    padding: 13px 8px 8px 0;
+  }
+  .datetime-md{
+    padding: 13px 8px 8px 0;
+  }
+  .input_inline_activity{
+    margin-top: 15pt;
+  }
+  .activity_duration{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    line-height: normal;
+    font-size: 16pt;
+    margin: 35pt 0 0 15pt;
+  }
+  .add_activity_activity_list{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    line-height: normal;
+    font-size: 16pt;
+  }

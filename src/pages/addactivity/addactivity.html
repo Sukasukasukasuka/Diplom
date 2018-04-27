@@ -1,0 +1,46 @@
+<ion-header>
+  <ion-navbar>
+    <div class="add_activity">
+      <a href="#"><img width="20px" height="20" src="../../assets/back.png"></a>
+      <h3>Add activity</h3>
+      <a href="#"><h4 class="save">save</h4></a>
+    </div>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <ion-grid>
+    <ion-list>
+      <ion-item>
+        <ion-select class="add_activity_activity_list">
+          <ion-option value="rn" selected >Runnig</ion-option>
+          <ion-option value="wk">Walking</ion-option>
+          <ion-option value="cl">Cycling</ion-option>
+          <ion-option value="wl">Weightlifting</ion-option>
+          <ion-option value="fb">Football</ion-option>
+          <ion-option value="bb">Basketball</ion-option>
+        </ion-select>
+      </ion-item>
+      <div class="input_inline input_inline_activity">
+        <ion-item>
+          <ion-datetime displayFormat="MM/DD/YYYY"></ion-datetime>
+        </ion-item>
+        <ion-item>
+          <ion-datetime displayFormat="HH:mm"></ion-datetime>
+        </ion-item>
+      </div>
+      <h4 class="activity_duration">Activity duration</h4>
+      <div class="input_inline">
+        <ion-item>
+          <ion-label floating>Hours</ion-label>
+          <ion-input type="number"></ion-input>
+        </ion-item>
+        <ion-item>
+          <ion-label floating>Minutes</ion-label>
+          <ion-input type="number"></ion-input>
+        </ion-item>
+      </div>
+      <button class="btn" ion-button full color="secondary">Save</button>
+    </ion-list>
+  </ion-grid>
+</ion-content>

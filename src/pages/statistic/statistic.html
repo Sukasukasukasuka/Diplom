@@ -1,0 +1,55 @@
+
+<ion-header>
+  <ion-navbar>
+    <div class="add_activity_stats">
+      <a href="#"><img width="20px" height="20" src="../../assets/back.png"></a>
+      <h3>Statistic for all time</h3>
+    </div>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <ion-grid>
+    <ion-row>
+      <ion-col>
+        <ion-list>
+          <div class="stat_inline">
+            <ion-item>
+              <ion-select>
+                <ion-option value="d" selected>Days</ion-option>
+                <ion-option value="w">Weeks</ion-option>
+                <ion-option value="m">Months</ion-option>
+              </ion-select>
+            </ion-item>
+            <ion-item>
+
+              <ion-select>
+                <ion-option value="s" selected>Steps</ion-option>
+                <ion-option value="k">Kilometers</ion-option>
+                <ion-option value="c">Calories</ion-option>
+              </ion-select>
+            </ion-item>
+          </div>
+        </ion-list>
+        <ion-list>
+          <div class="list_stat_item">
+            <p class="list_stat_item_date">Today</p>
+            <p>3589 steps</p>
+          </div>
+          <div class="list_stat_item">
+            <p class="list_stat_item_date">Mn, 23 apr</p>
+            <p>4756 steps</p>
+          </div>
+          <div class="list_stat_item">
+            <p class="list_stat_item_date">Sn, 22 apr</p>
+            <p>10357 steps</p>
+          </div>
+          <div class="list_stat_item">
+            <p class="list_stat_item_date">St, 21 apr</p>
+            <p>3589 steps</p>
+          </div>
+        </ion-list>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-content>
